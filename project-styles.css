@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div{
+    padding-top: 12px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #FBB03B;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.item{
+    color: white;
+    font-size: 20px;
+}
+
+.h{
+    color: #FBB03B;
+}
+
+.project-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-head > h2{
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: #FBB03B;
+}
+
+.project-information > h1{
+    font-size: 2rem;
+    color: #FBB03B;
+}
+
+.course{
+    color: #FBB03B;
+}
+
+.image{
+    border: 2px solid #FBB03B;
+    border-radius: 2rem;
+}
+
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #FBB03B;
+    margin-right: 20px;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    font-size: 20px;
+    color: #FBB03B;
+}
+
+@media(max-width: 550px){
+    .social-icons{
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+    } 
+
+    .image{
+        border: 2px solid #FBB03B;
+        border-radius: 2rem;
+    }
+}
